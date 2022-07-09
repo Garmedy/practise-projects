@@ -66,7 +66,7 @@ def game():
         pns = input("              ")
         if pns == "y":
             game()
-        elif ans == "n":
+        elif pns == "n":
             print("        bye then")
             exit()
     elif ans == "n":
