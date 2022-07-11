@@ -1,4 +1,5 @@
 import random
+import os
 
 print("            Dice\n")
 def dice():
@@ -65,6 +66,8 @@ def game():
         print("\n    do you want to roll again?\n")
         pns = input("              ")
         if pns == "y":
+            os.system(" clear")
+            print("            Dice\n")
             game()
         elif pns == "n":
             print("        bye then")
